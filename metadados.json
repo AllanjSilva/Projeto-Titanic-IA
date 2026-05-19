@@ -1,0 +1,33 @@
+{
+  "features": [
+    "Age",
+    "Fare",
+    "Sex",
+    "Pclass",
+    "sibsp",
+    "Parch",
+    "Embarked"
+  ],
+  "target": "2urvived",
+  "acuracia": 0.7595,
+  "auc": 0.782,
+  "n_treino": 1047,
+  "n_teste": 262,
+  "media_idade": 29.5,
+  "media_tarifa": 33.28,
+  "taxa_sobrevivencia": 0.2613,
+  "sex_map": {
+    "0": "masculino",
+    "1": "feminino"
+  },
+  "embarked_map": {
+    "0": "Cherbourg (C)",
+    "1": "Queenstown (Q)",
+    "2": "Southampton (S)"
+  },
+  "pclass_desc": {
+    "1": "Primeira classe",
+    "2": "Segunda classe",
+    "3": "Terceira classe"
+  }
+}
